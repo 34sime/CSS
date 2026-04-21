@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    background-color: #111;
+    color: gray;
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
