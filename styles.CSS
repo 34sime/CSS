@@ -1,15 +1,69 @@
 body {
-    font-family: Arial;
     background-color: #111;
-    color: gray;
+    color: white;
+    font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
 }
 
-a {
+h1 {
     color: red;
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+}
+
+h2 {
+    color: #00ccff;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+img {
+    border: 3px solid red;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* BOTONES DE PERSONAJES */
+ul li a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* EFECTO AL PASAR EL CURSOR */
+ul li a:hover {
+    background-color: black;
+    color: red;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px red;
+}
+
+/* ENLACES GENERALES */
+a {
+    color: yellow;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: orange;
 }
