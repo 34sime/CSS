@@ -37,8 +37,8 @@ img {
     border-radius: 10px;
 }
 
-/* BOTONES DE PERSONAJES */
-ul li a {
+
+ ul li a {
     display: inline-block;
     background-color: red;
     color: white;
@@ -50,15 +50,15 @@ ul li a {
     transition: all 0.3s ease;
 }
 
-/* EFECTO AL PASAR EL CURSOR */
-ul li a:hover {
+
+ ul li a:hover {
     background-color: black;
     color: red;
     transform: scale(1.1);
     box-shadow: 0 0 10px red;
 }
 
-/* ENLACES GENERALES */
+
 a {
     color: yellow;
     text-decoration: none;
@@ -67,3 +67,22 @@ a {
 a:hover {
     color: orange;
 }
+nav a{
+
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+ nav a:hover {
+    background-color: black;
+    color: red;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px red;
+
+ }
